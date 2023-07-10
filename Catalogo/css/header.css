@@ -1,0 +1,141 @@
+/* Estilos para el header */
+header {
+    width: 100%;
+    height: 70px;
+    background-color: var(--Foscuro);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+  }
+  
+  .header-logo,
+  .header-content__search,
+  .header-content {
+    display: inline-block;
+  }
+  
+  .header-content__search {
+    margin-right: 0 auto;
+  }
+  
+  .header-content {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .categoria, .header-contacto {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .header-logo a img {
+    width: 10px;
+  }
+  
+  
+  .header-logo__img {
+    max-height: 100px;
+  }
+  
+  .header-content__search {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 3px solid #ffbbc6;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #ffbbc6;
+    width: 450px;
+    margin-left: auto;
+  }
+  
+  .header-search {
+    max-height: 20px;
+  }
+  
+  input[type="text"] {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 8px;
+    
+  }
+
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.234);
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-carrito {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    
+  }
+
+  .button-carrito:active {
+    background-color: #fd82b1;
+  }
+  
+  .button-carrito:focus {
+    outline: none;
+  }
+  
+  .header-carrito {
+    max-height: 45px;
+    padding: 7px;
+  }
+  
+  .header-content a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .registro {
+    border: 2px solid #ffbbc6;
+    border-radius: 25px;
+    padding: 12px;
+    
+   
+  }
+
+
+  
+
+
+a:active {
+  background-color: #fd82b1;
+}
